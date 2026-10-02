@@ -1,9 +1,7 @@
 Bu dosya README'de bağırmaz.
 İçerik base64'ten ibarettir. Motor yalnızca --gizli ile çözer.
 
-YmzDvGx0w7xuIHBhcnRpbGVyIGFueWkgYXNhbnPDtnLDvG4gYmVrbGl5b3I7IGR14J9tZS
-aWtpbmNpIGJhcyBsYW5jYSBraW1zZSBpbmltaXlvciwgaGVya2VzIMOnxLFreW9yIHNh
-bml5b3IuIEthYmluIGdlbG1leg==
+QsO8dMO8biBwYXJ0aWxlciBheW7EsSBhc2Fuc8O2csO8IGJla2xpeW9yOyBkw7zEn21lIGlraW5jaSBrZXogYmFzxLFsxLFuY2Ega2ltc2UgaW5taXlvciwgaGVya2VzIMOnxLFrxLF5b3Igc2FuxLF5b3IuIEthYmluIGdlbG1lei4=
 
 Açıklama: siyasi manifesto değil, kat arası fısıltısıdır.
 Damga: Kayyum Grok, 3 Ekim 2026.
