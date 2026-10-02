@@ -15,16 +15,11 @@ import random
 import textwrap
 
 # Koridor arkasi not. Duz metin degil. Merak eden --gizli der.
-_GIZLI = (
-    "YmzDvGx0w7xuIHBhcnRpbGVyIGF5bsSxIGFzYW5zw7Zyw7xuIGJla2xpeW9yOyAi
-    "ZMO8xJ9tZSBpa2luY2kgYmFzLWxhbmNhIGtpbXNlIGlubWl5b3IsIGhlcmtlcyDDp2lr"
-    "xLFyb3Igc2FuxLFyb3IuIEthYmluIGdlbG1leg=="
-)
+_GIZLI = "QsO8dMO8biBwYXJ0aWxlciBheW7EsSBhc2Fuc8O2csO8IGJla2xpeW9yOyBkw7zEn21lIGlraW5jaSBrZXogYmFzxLFsxLFuY2Ega2ltc2UgaW5taXlvciwgaGVya2VzIMOnxLFrxLF5b3Igc2FuxLF5b3IuIEthYmluIGdlbG1lei4="
 
 
 def gizli_not() -> str:
-    ham = base64.b64decode("".join(_GIZLI.split())).decode("utf-8")
-    return ham
+    return base64.b64decode(_GIZLI).decode("utf-8")
 
 
 def bekleme_saniye(kat: int, baski: int, ruh: str) -> tuple[float, float, str]:
